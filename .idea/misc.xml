@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AIIgnoreSettings">
-    <option name="aiignore_manually_set" value="true" />
-  </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -18,8 +15,5 @@
     <option name="myEncoding" value="UTF-8" />
     <option name="myConnectionType" value="SSH_CONFIG" />
     <option name="myConnectionId" value="bathroom@dedi7263.your-server.de:222 password" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
 </project>

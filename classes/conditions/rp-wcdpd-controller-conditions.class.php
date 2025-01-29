@@ -101,20 +101,17 @@ class RP_WCDPD_Controller_Conditions extends RightPress_Controller_Conditions
 		// Add all quantities
 		foreach ($cart_items as $cart_item) {
 
-			// Add subtotal if it exists
-			if (isset($cart_item['line_subtotal'])) {
-				$sum += $cart_item['line_subtotal'];
-			}
+			// Add subtotal
+			$sum += $cart_item['line_subtotal'];
 
-			// Add subtotal tax if it exists and tax inclusion is enabled
-			if ($include_tax && isset($cart_item['line_subtotal_tax'])) {
+			// Add subtotal tax
+			if ($include_tax) {
 				$sum += $cart_item['line_subtotal_tax'];
 			}
 		}
 
 		return $sum;
 	}
-
 
 	/**
 	 * Check if cart item or product needs to be excluded by exclude rules
