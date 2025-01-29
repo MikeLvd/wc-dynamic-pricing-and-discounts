@@ -11,13 +11,13 @@
  * Text Domain: rp_wcdpd
  * Domain Path: /languages
  *
- * Version: 2.4.6
+ * Version: 2.4.7
  *
  * Requires at least: 4.0
- * Tested up to: 6.3
+ * Tested up to: 6.7
  *
  * WC requires at least: 3.0
- * WC tested up to: 8.1
+ * WC tested up to: 9.5.2
  *
  * @package WooCommerce Dynamic Pricing & Discounts
  * @category Core
